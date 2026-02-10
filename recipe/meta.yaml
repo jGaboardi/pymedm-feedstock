@@ -1,5 +1,5 @@
 {% set name = "pymedm" %}
-{% set version = "2.2.7" %}
+{% set version = "2.2.8" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f7c8decd1099de25d4e66016612edbdb8d6b0580cdb955d5f6b9d64ec480554c
+  sha256: bad334ac7a7bda7f68adc55713857355331b219fcfb5570e833037d393be4923
 
 build:
   noarch: python
